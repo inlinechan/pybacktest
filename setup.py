@@ -20,5 +20,6 @@ setup(name='pybacktest',
       install_requires=['numpy>=1.11',
                         'pandas>=0.19',
                         'pyyaml',
+                        'panda_datareader',
                         'cached_property'],
       **extra_args)
